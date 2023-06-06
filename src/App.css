@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500&family=Roboto+Condensed:wght@300;400&family=Roboto+Slab:wght@300;400;500&display=swap');
+
 .App {
   text-align: center;
 }
@@ -32,7 +34,15 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+#root {
+  background-color: #F9F9FF;
+  font-family: 'Libre Franklin', sans-serif;
+  /* font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Slab', serif; */
 }
