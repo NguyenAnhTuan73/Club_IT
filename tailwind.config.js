@@ -1,6 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./src/**/*.{html,js,ts,tsx,js,jsx}'],
+	content: [
+		"./app/**/*.{js,ts,jsx,tsx}",
+		"./pages/**/*.{js,ts,jsx,tsx}",
+		"./components/**/*.{js,ts,jsx,tsx}",
+
+		// Or if using `src` directory:
+		"./src/**/*.{js,ts,jsx,tsx}",
+	],
 	theme: {
 		extend: {},
 		borderRadius: {},
@@ -33,6 +40,8 @@ module.exports = {
 				'"Courier New"',
 				'monospace',
 			],
+			slab: ['Roboto Slab'],
+			condensed: ['Roboto Condensed']
 		},
 		fontWeight: {
 			thin: '100',
@@ -55,11 +64,12 @@ module.exports = {
 			blackBlur: '#192F54',
 			blueMain: '#30679A',
 			blueBlur: '#C6E0FF',
+			bgIcon: '#EAF0F5',
 			greenMain: '#0BCEC3',
 			greenBlur: '#BDFFFA',
 			grayMain: '#999999',
 			grayBlur: '#EAEAEA',
-			gray: '#cccc', 
+			gray: '#cccc',
 			purpleMain: '#714FF7',
 			purpleBlur: '#BCBAFF',
 			midnight: '#121063',

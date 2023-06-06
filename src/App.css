@@ -46,3 +46,12 @@
   /* font-family: 'Roboto Condensed', sans-serif;
   font-family: 'Roboto Slab', serif; */
 }
+.rounded-sm{
+  border-radius: 5px;
+}
+.rounded-md{
+  border-radius: 10px;
+}
+.rounded-lg{
+  border-radius: 20px;
+}
